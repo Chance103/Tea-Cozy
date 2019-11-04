@@ -1,0 +1,133 @@
+body {
+    margin: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+nav {
+    z-index: 10000;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+}
+
+nav img {
+    height: 50px;
+    float: left;
+    margin: 10px;
+}
+
+nav div {
+    height: 69px;
+    overflow: hidden;
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+nav div a {
+    margin: 0;
+    padding: 10px;
+    float: right;
+    color: seashell;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    top: 70px;
+    background-image: url(../images/img-mission-background.jpg);
+}
+
+.main .box {
+    margin: auto;
+    width: 100%;
+    background-color: black;
+}
+
+.main .box h2,
+.main .box h4 {
+    padding: 0;
+    margin: 10px;
+}
+
+.teas {
+    margin: auto;
+    padding-top: 70px;
+    width: 1000px;
+    position: relative;
+    top: 70px;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 0;
+}
+
+.tea-text {
+    margin:0;
+}
+
+.images {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.location {
+    margin: auto;
+    position: relative;
+    top: 70px;
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+    background-image: url(../images/img-locations-background.jpg);
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.boxes {
+    width: 980px;
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.place {
+    justify-content: space-around;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    position: relative;
+    top: 70px;
+    height: 200px;
+}
+
+h6 {
+    margin: 30px 20px;
+    text-align: left;
+    position: relative;
+    top: 70px;
+}
